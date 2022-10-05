@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+    </title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+    <div class="background">
+        <div class="rectangle"></div>
+        <div>
+            <img src="img/Triangle.png" class="triangle">
+            <div>
+                <img src="img/heart.png" class="fone_heart ">
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div>
+            <a href="index.html" class="a">
+                <img src="img/logo.png" class="logo">
+            </a>
+        </div>
+        <div class="Lang">
+            <div class="ukr">
+                <a href="" class="a">
+                    Укр
+                </a>
+            </div>
+            <div class="eng">
+                <a href="" class="a">
+                    Рус
+                </a>
+            </div>
+            <div class="rus">
+                <a href="" class="a">
+                    Eng
+                </a>
+            </div>
+        </div>
+        <div class="main__menu">
+            <div class="toolbox-first">
+                <div class="projects">
+                    <a href="front/project.html" class="a">
+                        Проекти
+                    </a>
+                </div>
+                <div class="archive">
+                    <a href="front/arhiv.html" class="a">
+                        Архів
+                    </a>
+                </div>
+                <div class="contacts">
+                    <a href="front/kontaktu.html" class="a">
+                        Контакти
+                    </a>
+                </div>
+            </div>
+            <div class="toolbox-second">
+                <div class="emergency">
+                    <a href="front/Fasthelp.html" class="a">
+                        Термінова допомога
+                    </a>
+                </div>
+            </div>
+            <button class="openBtn" onclick="openSearch1()">
+                <img src="img/Search.png" class="search">
+            </button>
+        </div>
+        <div class="log_in_reg">
+            <a href="index.html" class="a">
+                <u>Вхід/Реєстрація</u>
+            </a>
+        </div>
+    </header>
+    <div class="forma">
+        <div class="good_heart">Добрe Серце</div>
+        <div class="about_project">
+            <div class="about_project_text">
+                Детальніше про проект
+            </div>
+            <div class="shape-first">
+                <a href="" class="a">
+                    <img src="img/Shape1.png" >
+                </a>
+            </div>
+        </div>
+        <div class="help_now">
+            <div class="rectangle-first">
+                <img src="img/Rectangle1.png">
+            </div>
+            <div class="help_now_text">
+                Вже зараз Ви можете допомогти тим, хто дійсно потребує допомоги
+            </div>
+        </div>
+        <div class="how_you_can_help">
+            <div class="how_you_can_help_text">
+                Як Ви можете допомогти?
+            </div>
+            <div class="shape-second">
+                <button class="openBtn" onclick="openForms()">
+                    <img src="img/Shape1.png">
+                </button>
+            </div>
+        </div>
+        <div class="to_help_now">
+            <a href="" class="a">
+                <div class="rectangle-three">
+                </div>
+            </a>
+            <div class="to_help_now_text">
+                <button class="openType_help" onclick="openHelp()">
+                    Допомогти вже зараз
+                </button>
+            </div>
+        </div>
+        <div class="add_project">
+            <div class="rectangle-second">
+                <img src="img/Rectangle1.png">
+            </div>
+            <div class="add_project_text">
+                Якщо Вам необхідна допомога, додайте проект
+            </div>
+            <div class="to_add_project">
+                <div class="to_add_project_text">
+                    Додати проект
+                </div>
+                <div class="shape-three">
+                    <a href="">
+                        <img src="img/Shape3.png" >
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="">
+        <div>
+            <img src="img/chat.png" class="chat">
+        </div>
+    </a>
+    <div class="networks">
+        <div class="share">Розповісти всім</div>
+        <div class="tweeter">
+            <a href="">
+                <img src="img/tweeter.png" >
+            </a>
+        </div>
+        <div class="facebook">
+            <a href="">
+                <img src="img/facebook.png" >
+            </a>
+        </div>
+        <div class="vk">
+            <a href="">
+                <img src="img/vk.png" >
+            </a>
+        </div>
+    </div>
+    <div id="Overlay2" class="overlay-second">
+        <span class="closebtn-second" onclick="closeSearch1()"><img src="img/Close.png"></span>
+        <div class="overlay-content-second">
+            <form action="" class="search-four">
+                <input type="text" placeholder="Пошук">
+            </form>
+        </div>
+    </div>
+    <div id="Overlay3" class="overlay-three">
+        <div class="text-three_first"></div>
+        <div class="overlay-content-three">
+            <div class="group-four">
+                <div class="group-four_line"></div>
+                <div class="group-five">
+                    <div class="group-five_text-first">Війна</div>
+                    <div class="group-five_text-second">Необхідно зібрати ліки для поранених бійців із зони АТО </div>
+                </div>
+                <div class="group-six">
+                    <div class="group-six_text-four">Діти</div>
+                    <div class="group-six_text-first">
+                        Для операції на сердці маленькому хлопчику, необхідно зібрати гроші на
+                        ліки
+                        <div class="group-six_line"></div>
+                    </div>
+                    <div class="group-six_text-second">
+                        Збираємо гроші на лікування п’ятирічного Василя, який став жертвою ДТП
+                    </div>
+                    <div class="group-six_text-three">Проекти</div>
+
+                    <div class="group-six_text-six">Діти</div>
+                    <div class="group-six_text-five">Необхідно купити ліки для дитячого будинку в місті Київ</div>
+                    <div class="group-six_text-seven">Архів</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <span class="closebtn" onclick="closeFrame()"><img src="img/Close.png"></span>
+        <div class="overlay-content">
+            <form action="">
+                <div class="white_r">
+                    <div class="text_w">Види допомоги</div>
+                    <a href="">
+                        <div class="do-first">
+                            <div class="do_shape"><img src="img/do1.png" ></div>
+                            <div class="shape-second"></div>
+                            <div class="do_text">Зробити</div>
+                        </div>
+                    </a>
+                    <div class="text-first">
+                        Натискайте цю кнопку,
+                        якщо Ви хочете зробити,
+                        наприклад: ремонт у
+                        дитячому будинку,
+                        складну операцію,
+                        побудувати дитячий
+                        майданчик або побудувати житло
+                        для переселенців і тд.
+
+                        Ця кнопка, для організацій, які можуть взяти на себе відповідальність за увесь проект.
+                    </div>
+                    <a href="">
+                        <div class="money">
+                            <div class="money_shape"><img src="img/money2.png" ></div>
+                            <div class="shape-second"></div>
+                            <div class="money_text">Фінансова допомога</div>
+                        </div>
+                    </a>
+                    <div class="text-second">
+                        Перераховуйте гроші тим, хто дійсно потребує цього.
+                    </div>
+                    <a href="">
+                        <div class="clothes">
+                            <div class="clothes_shape"><img src="img/clothes.png" ></div>
+                            <div class="shape-second"></div>
+                            <div class="clothes_text">Матеріальна допомога</div>
+                        </div>
+                    </a>
+                    <div class="text-three">
+                        Зберіть ліки, речі, їжу,
+                        іграшки та інше, для тих, кому це необхідно.
+                    </div>
+                    <a href="">
+                        <div class="donation">
+                            <div class="donation_shape"><img src="img/donation.png" ></div>
+                            <div class="shape-second"></div>
+                            <div class="donation_text">Волонтерство</div>
+                        </div>
+                    </a>
+                    <div class="text-four">
+                        Допоможіть ділом або професійними навичками.
+                        Підтримайте проекти своєю роботою.
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="overlay-content">
+        <div id="Lay" class="overlay">
+            <span class="closebtn" onclick="closeForms()"><img src="img/Close.png"></span>
+            <div class="overlay-content">
+                <form action="">
+                    <div class="white_r">
+                        <div class="text_w">Види допомоги</div>
+                        <a href="">
+                            <div class="do-first">
+                                <div class="shape-second">
+                                    <div><img src="img/do1.png" class="do_shape"></div>
+                                </div>
+                                <div class="do_text">Зробити</div>
+                            </div>
+                        </a>
+                        <div class="text-first">
+                            Натискайте цю кнопку,
+                            якщо Ви хочете зробити,
+                            наприклад: ремонт у
+                            дитячому будинку,
+                            складну операцію,
+                            побудувати дитячий
+                            майданчик або побудувати житло
+                            для переселенців і тд.
+
+                            Ця кнопка, для організацій, які можуть взяти на себе відповідальність за увесь проект.
+                        </div>
+                        <a href="">
+                            <div class="money">
+                                <div class="shape-second">
+                                    <div class="money_shape"><img src="img/money2.png" ></div>
+                                </div>
+                                <div class="money_text">Фінансова допомога</div>
+                            </div>
+                        </a>
+                        <div class="text-second">
+                            Перераховуйте гроші тим, хто дійсно потребує цього.
+                        </div>
+                        <a href="">
+                            <div class="clothes">
+                                <div class="shtanu">
+                                    <div class="clothes_shape"><img src="img/clothes.png" ></div>
+                                </div>
+                                <div class="clothes_text">Матеріальна допомога</div>
+                            </div>
+                        </a>
+                        <div class="text-three">
+                            Зберіть ліки, речі, їжу,
+                            іграшки та інше, для тих, кому це необхідно.
+                        </div>
+                        <a href="">
+                            <div class="donation">
+                                <div class="volonterstvo">
+                                    <div class="donation_shape"><img src="img/donation.png" ></div>
+                                </div>
+                                <div class="donation_text">Волонтерство</div>
+                            </div>
+                        </a>
+                        <div class="text-four">
+                            Допоможіть ділом або професійними навичками.
+                            Підтримайте проекти своєю роботою.
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="Typehelp" class="Type_help">
+        <span class="close" onclick="closeHelp()"><img src="img/Close.png"></span>
+        <div class="Type_help_content">
+            <div class="main_text">
+                Заповніть форму
+            </div>
+            <label class="checkbox-form">
+                <input id="ur_or_fiz" type="checkbox" onclick="getValue()">
+                <span class="checkbox-form-switch" text1="Юр.Особа" text2="Фіз.Особа"></span>
+            </label>
+            <div id="ur_osoba" class="ur_osoba" style="display: block;">
+                <form action="" class="forma-first">
+                    <div class="text-first_f-first">Ім'я</div>
+                    <input class="input-first_f-first" type="text" placeholder="">
+                    <div class="text-second_f-first">Прізвище</div>
+                    <input class="input-second_f-first" type="text" placeholder="">
+                    <div class="text-three_f-first">Назва компаніі, організації</div>
+                    <input class="input-three_f-first" type="text" placeholder="">
+                    <div class="text-four_f-first">Email-адрес</div>
+                    <input class="input-four_f-first" type="email" placeholder="">
+                    <div class="text-five_f-first">Номер телефону</div>
+                    <input class="input-five_f-first" type="number" placeholder="">
+                </form>
+                <form action="" class="forma-second">
+                    <div class="text-first_f-second">Країна</div>
+                    <input class="input-first_f-second" type="text" placeholder="">
+                    <div class="text-second_f-second">Місто</div>
+                    <input class="input-second_f-second" type="text" placeholder="">
+                    <div class="text-three_f-second">Штат, район</div>
+                    <input class="input-three_f-second" type="text" placeholder="">
+                    <div class="text-four_f-second">Адреса</div>
+                    <input class="input-four_f-second" type="text" placeholder="">
+                    <div class="text-five_f-second">Поштовий індекс</div>
+                    <input class="input-five_f-second" type="number" placeholder="">
+                </form>
+                <div class="lc_text-second">Види допомоги</div>
+                <div class="lc_text-four">Ви можете змінити вид допомоги</div>
+                <a href="#">
+                    <div class="do-first">
+                        <div class="ramka_ruka">
+                            <button class="openBtn" onclick="openDo()">
+                                <img src="img/do1.png" class="do_shape" >
+                            </button>
+                        </div>
+                        <div class="do_text">Зробити</div>
+                    </div>
+                </a>
+                <div class="ls_forma" id="Do" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape2.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                       praesentium accusantium hic error minus exercitationem perspiciatis
+                       odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                       Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                       magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                       Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                       deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                       Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                       odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                        fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                   </h1>
+                </div>
+                <a href="#">
+                    <div class="money">
+                        <div class="ramka_money">
+                            <div>
+                                <button class="openBtn" onclick="openPay()">
+                                    <img src="img/money2.png" class="foto_koshel">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="money_text">Фінансова допомога</div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="clothes">
+                        <div class="ramka_clothes">
+                            <button class="openBtn" onclick="openClothes()">
+                                <div><img src="img/clothes.png" class="clothes_foto"></div>
+                            </button>
+                        </div>
+                        <div class="shape-five"></div>
+                        <div class="clothes_text">Матеріальна допомога</div>
+                    </div>
+                </a>
+                <div class="ls_forma" id="Clothes" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape3.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                       praesentium accusantium hic error minus exercitationem perspiciatis
+                       odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                       Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                       magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                       Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                       deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                       Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                       odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                        fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                   </h1>
+                </div>
+                <a href="#">
+        
+                    <div class="donation">
+                        <div class="ramka_donation">
+                            <div>
+                                <button class="openBtn" onclick="openHeart()">
+                                    <img src="img/donation.png" class="donation_foto">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="shape-six"></div>
+                        <div class="donation_text">Волонтерство</div>
+                    </div>
+                </a>
+                <div class="ls_forma" id="Heart" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape4.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                       praesentium accusantium hic error minus exercitationem perspiciatis
+                       odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                       Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                       magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                       Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                       deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                       Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                       odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                        fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                   </h1>
+                </div>
+                <div class="ls_forma" id="Pay" style="display: block;">
+                    <img class="combine_shape" src="img/Combined Shape.png">
+                    <div class="ls_forma-first">
+                        <div class="text_shape">Спосіб оплати </div>
+                        <a href="#">
+                            <div class="card-first">
+                                <img class="card-foto-first" src="img/Card1.png">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-second">
+                                <div class="text-first_card-second">Приват24</div>
+                                <div class="text_card">Приват24</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-three">
+                                <img class="card-foto-three" src="img/Card3.png">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-four">
+                                <img class="card-foto-four" src="img/Card4.png">
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="card-five">
+                                <img class="card-foto-five" src="img/Card5.png">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ls_forma-second">
+                        <div class="text_shape">Введіть наступні данні</div>
+                        <div class="card-six">
+                            <img class="card" src="img/Card6.png">
+                            <div class="number_cards">Номер карти</div>
+                            <div class="card-six_group">
+                                <input class="input-first_card" type="number" placeholder="">
+                                <input class="input-second_card" type="number" placeholder="">
+                                <input class="input-three_card" type="number" placeholder="">
+                                <input class="input-four_card" type="number" placeholder="">
+                                <div class="data_cards">Термін дії</div>
+                                <input class="input-five_card" type="date">
+                                <div class="cvc_cards">CVC/CVV</div>
+                                <input class="input-six_card" type="number" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lc_text-three">Допомогти</div>
+                </div>
+            </div>
+            <div id="fiz_osoba" class="fiz_osoba" style="display: none;">
+                <form action="" class="forma-first_f">
+                    <div class="text-first_f-first">Ім'я</div>
+                    <input class="input-first_f-first" type="text" placeholder="">
+                    <div class="text-second_f-first">Прізвище</div>
+                    <input class="input-second_f-first" type="text" placeholder="">
+                    <div class="text-three_f-first">Назва компаніі, організації</div>
+                    <input class="input-three_f-first" type="text" placeholder="">
+                    <div class="text-four_f-first">Email-адрес</div>
+                    <input class="input-four_f-first" type="email" placeholder="">
+                    <div class="text-five_f-first">Номер телефону</div>
+                    <input class="input-five_f-first" type="number" placeholder="">
+                </form>
+                <form action="" class="forma-second_f">
+                    <div class="text-first_f-second">Країна</div>
+                    <input class="input-first_f-second" type="text" placeholder="">
+                    <div class="text-second_f-second">Місто</div>
+                    <input class="input-second_f-second" type="text" placeholder="">
+                    <div class="text-three_f-second">Штат, район</div>
+                    <input class="input-three_f-second" type="text" placeholder="">
+                    <div class="text-four_f-second">Адреса</div>
+                    <input class="input-four_f-second" type="text" placeholder="">
+                    <div class="text-five_f-second">Поштовий індекс</div>
+                    <input class="input-five_f-second" type="number" placeholder="">
+                </form>
+                <form action="" class="forma-three_f">
+                    <div class="text-first_f-three">Юридична адреса</div>
+                    <input class="input-first_f-three" type="text" placeholder="">
+                    <div class="text-second_f-three">Найменування банку</div>
+                    <input class="input-second_f-three" type="text" placeholder="">
+                    <div class="text-three_f-three">МФО банку</div>
+                    <input class="input-three_f-three" type="text" placeholder="">
+                    <div class="text-four_f-three">Розрахунковий рахунок</div>
+                    <input class="input-four_f-three" type="text" placeholder="">
+                </form>
+                <form action="" class="forma-four_f">
+                    <div class="text-first_f-four">ЗКПО</div>
+                    <input class="input-first_f-four" type="text" placeholder="">
+                    <div class="text-second_f-four">Тип оподаткування</div>
+                    <input class="input-second_f-four" type="text" placeholder="">
+                    <div class="text-three_f-four">ІНН</div>
+                    <input class="input-three_f-four" type="text" placeholder="">
+                    <div class="text-four_f-four">Система оподаткування</div>
+                    <input class="input-four_f-four" type="text" placeholder="">
+                    <div class="text-five_f-four">Телефон бугалтерії</div>
+                    <input class="input-five_f-four" type="number" placeholder="">
+                    <div class="text-six_f-four">Факс</div>
+                    <input class="input-six_f-four" type="text" placeholder="">
+                </form>
+        
+                <div class="lc_text-second">Види допомоги</div>
+                <div class="lc_text-four">Ви можете змінити вид допомоги</div>
+                <a href="#">
+                    <div class="do-second">
+                        <div class="ramka_do-second">
+                            <div class="do_shape">
+                                <button class="openBtn" onclick="openDo_second()">
+                                    <img src="img/do1.png" >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="do_text">Зробити</div>
+                    </div>
+                </a>
+                <div class="ls_formaf" id="Do_second" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape2.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                       praesentium accusantium hic error minus exercitationem perspiciatis
+                       odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                       Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                       magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                       Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                       deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                       Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                       odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                        fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                   </h1>
+                </div>
+                <a href="#">
+                    <div class="money-second">
+                        <div class="ramka_koshel-second">
+                            <div class="money_shape">
+                                <button class="openBtn" onclick="openPay_second()">
+                                    <img src="img/money2.png" >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="money_text">Фінансова допомога</div>
+                    </div>
+                </a>
+               <a href="#">
+                    <div class="clothes-second">
+                        <div class="ramka_shtanu">
+                            <div class="clothes_shape">
+                                <button class="openBtn" onclick="openClothes_second()">    
+                                    <img src="img/clothes.png" >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="clothes_text">Матеріальна допомога</div>
+                    </div>
+                </a>
+                <div class="ls_formaf" id="Clothes_second" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape3.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                       praesentium accusantium hic error minus exercitationem perspiciatis
+                       odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                       Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                       magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                       Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                       deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                       Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                       odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                        fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                   </h1>
+                </div>
+                <a href="#">
+                    <div class="donation-second">
+                        <div class="ramka_koshel">
+                            <div class="donation_shape">
+                                <button class="openBtn" onclick="openHeart_second()">
+                                    <img src="img/donation.png" >
+                                </button>
+                            </div>
+                        </div>
+                        <div class="donation_text">Волонтерство</div>
+                    </div>
+                </a>
+                <div class="ls_formaf" id="Heart_second" style="display: none;">
+                    <img class="combine_shape" src="img/Combined Shape4.png">
+                    <h1 class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Sed non voluptatum molestiae eum animi? Deleniti quam magni,
+                        praesentium accusantium hic error minus exercitationem perspiciatis
+                        odit expedita eligendi libero dolores mollitia velit ratione recusandae!
+                        Placeat et quia veniam est alias sequi, voluptatem tempora doloremque corporis
+                        magnam consequuntur necessitatibus sunt quas perferendis beatae nemo vero.
+                        Consequuntur ex natus obcaecati, vero iusto maxime quaerat, repellendus impedit,
+                        deleniti dignissimos provident. Quia libero esse dolore exercitationem quae?
+                        Vel aut, expedita dolorum dolor nemo quo rem pariatur culpa iusto praesentium,
+                        odio laborum omnis. Distinctio animi, architecto voluptates sapiente,
+                         fugit consequuntur provident, saepe ducimus non nostrum repellat.
+                    </h1>
+                </div>
+                <div class="ls_formaf" id="Pay_second" style="display: block;">
+                    <img class="combine_shape" src="img/Combined Shape.png" >
+                    <div class="ls_forma-first-f">
+                        <div class="text_shape">Спосіб оплати </div>
+                        <a href="#">
+                            <div class="card-first">
+                                <img class="card-foto-first" src="img/Card1.png" >
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-second">
+                                
+                                <div class="text-first_card-second">Приват24</div>
+                                <div class="text_card">Приват24</div>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-three">
+                                <img class="card-foto-three" src="img/Card3.png" >
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-four">
+                                <img class="card-foto-four" src="img/Card4.png" >
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="card-five">
+                                <img class="card-foto-five" src="img/Card5.png" >
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ls_forma-second-f">
+                        <div class="text_shape">Введіть наступні данні</div>
+                        <div class="card-six-f">
+                            <img class="card" src="img/Card6.png" >
+                            <div class="number_cards">Номер карти</div>
+                            <div class="card-six_groupf">
+                                <input class="input-first_card" type="number" placeholder="">
+                                <input class="input-second_card" type="number" placeholder="">
+                                <input class="input-three_card" type="number" placeholder="">
+                                <input class="input-four_card" type="number" placeholder="">
+                                <div class="data_cards">Термін дії</div>
+                                <input class="input-five_card" type="date">
+                                <div class="cvc_cards">CVC/CVV</div>
+                                <input class="input-six_card" type="number" placeholder="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lc_text-three">Допомогти</div>           
+            </div>
+        </div>
+    </div>
+</body>
+</html>
